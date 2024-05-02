@@ -9,9 +9,9 @@ endif()
 if (Qul_VERSION VERSION_GREATER_EQUAL "2.4")
     qul_add_target(TrainingProject QML_PROJECT TrainingProject.qmlproject GENERATE_ENTRYPOINT)
 
-target_sources(TrainingProject PRIVATE hardwareinterface.cpp hardwareinterface.h)
+    target_sources(TrainingProject PRIVATE hardwareinterface.cpp hardwareinterface.h)
 
-app_target_setup_os(TrainingProject)
+    app_target_setup_os(TrainingProject)
 else()
     if (Qul_VERSION VERSION_GREATER_EQUAL "1.7")
         qul_add_target(TrainingProject)
