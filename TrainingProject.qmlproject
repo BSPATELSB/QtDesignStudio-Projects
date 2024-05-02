@@ -19,6 +19,10 @@ Project {
         directory: "."
     }
 
+    InterfaceFiles {
+            files: ["hardwareinterface.h"]
+        }
+
     Files {
         filter: "*.conf"
         files: ["qtquickcontrols2.conf"]
