@@ -36,7 +36,7 @@ Item {
         running: true
         repeat: true
         onTriggered: {
-            //screen.bpmValue = HardwareInterface.readBpm()
+            screen.bpmValue = HardwareInterface.readBpm()
         }
     }
 }
