@@ -20,7 +20,7 @@ Project {
     }
 
     InterfaceFiles {
-        files: ["HardwareInterface.h"]
+        files: ["hardwareinterface.h"]
     }
 
     Files {
