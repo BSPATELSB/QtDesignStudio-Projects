@@ -20,8 +20,8 @@ Project {
     }
 
     InterfaceFiles {
-            files: ["hardwareinterface.h"]
-        }
+        files: ["hardwareinterface.h"]
+    }
 
     Files {
         filter: "*.conf"
